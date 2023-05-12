@@ -5,13 +5,6 @@ A quick-n-dirty tool to translate HTTP status codes to human readable descriptio
 
 ## Usage
 
-### Executable
-1. Download the latest release from Github
-2. Unzip the executable
-3. Move it in the folder that you keep all your programs (e.g: `/bin`)
-4. Add an `alias`
-5. You're done 🥳
-
 ### Build from source
 1. Clone the project
 2. Run `make build`
