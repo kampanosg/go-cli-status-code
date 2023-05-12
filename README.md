@@ -1,7 +1,7 @@
 # go-easy-status-code
 [![Go](https://github.com/kampanosg/go-easy-status-code/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-easy-status-code/actions/workflows/go.yml)
 
-A quick-n-dirty tool to translate HTTP status codes to human readable descriptions, without leaving the terminal. Built out of necessity as I am working with RESTful APIs all day and sometimes I might get a weird response that I haven't seen before  - it's pain having to context-switch for such a small thing!
+A quick-n-dirty tool to translate HTTP status codes to human readable descriptions, without leaving the terminal. Built out of necessity as I am working with RESTful APIs all day. Sometimes I get a weird response that I haven't seen before  - it's pain having to context-switch for such a small thing!
 
 ## Usage
 
