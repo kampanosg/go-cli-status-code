@@ -26,7 +26,7 @@ func TestResolveStatusCode(t *testing.T) {
 			t.Errorf("input %s, expected %s, got %s", tc.input, tc.expected, result)
 		}
 
-		if tc.wantErr && (tc.expectedErr != err) {
+		if tc.wantErr && (tc.expectedErr.Error() != err.Error()) {
 			t.Errorf("input %s, expected %s, got %s", tc.input, tc.expectedErr.Error(), err.Error())
 		}
 	}
