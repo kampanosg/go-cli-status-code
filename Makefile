@@ -1,3 +1,9 @@
+default: install
+
+.PHONY: install
+install: build
+	sudo mv esc /usr/local/bin
+
 .PHONY: build
 build:
 	go build -o esc .
