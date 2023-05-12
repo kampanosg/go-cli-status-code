@@ -7,9 +7,9 @@ import (
 
 func TestResolveStatusCode(t *testing.T) {
 	tests := []struct {
-		input         string
-		expected      string
-		wantErr       bool
+		input       string
+		expected    string
+		wantErr     bool
 		expectedErr error
 	}{
 		{"200", "200: OK", false, nil},
