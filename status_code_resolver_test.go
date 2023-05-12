@@ -1,5 +1,5 @@
 package main
 
-func ResolveStatusCode(statusCode int) string {
+func ResolveStatusCode_Test(statusCode int) string {
 	return ""
 }
