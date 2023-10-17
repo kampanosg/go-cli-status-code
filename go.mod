@@ -1,3 +1,3 @@
 module github.com/kampanosg/go-easy-status-code
 
-go 1.20
+go 1.21
