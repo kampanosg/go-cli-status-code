@@ -1,8 +1,4 @@
-default: install
-
-.PHONY: install
-install: build
-	sudo mv esc /usr/local/bin
+default: test
 
 .PHONY: build
 build:
