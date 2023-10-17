@@ -1,3 +1,3 @@
-module github.com/kampanosg/go-easy-status-code
+module github.com/kampanosg/whichsc
 
 go 1.21
